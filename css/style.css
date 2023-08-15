@@ -28,6 +28,8 @@ padding: 120px 0px
 a {
 text-decoration: none;
 }
+/* logo,strony,kontakt * */
+
 .header-studio {
 text-transform: uppercase;
 font-family: Raleway, sans-serif;
@@ -79,6 +81,7 @@ nav{
     margin-left: 76px;
     margin-right: 332px;
 }
+/* ogólne do głównej części * */
 
 .title-section  {
 background: var(--navyblue, #2E2F42);
@@ -97,7 +100,7 @@ img {
   max-width: 100%;
   height: auto;
 }
-ul,
+ul
 {
  list-style: none; 
  margin-left: 0;
@@ -127,7 +130,7 @@ header .container{
 align-items: center;
 }
 
-
+/* h1,przycisk, * */
 .title-section h1 {
 width: 496px;
 color: var(--white, #FFF);
@@ -152,6 +155,8 @@ letter-spacing: 0.64px;
 margin-top: 48px;
 padding: 16px 32px;
 }
+
+/* h3-4punkty  * */
 .article-list-item h3 {
 font-size: 20px;
 font-weight: 500;
@@ -167,7 +172,7 @@ line-height: 1.5;
 letter-spacing: 0.32px;
 margin-top: 8px;
 }
-
+/* co robimy - 3 zdjęcia  * */
 .doing-section ul{
  display: flex;
  justify-content: space-between;
@@ -182,6 +187,8 @@ text-transform: capitalize;
 text-align: center;
 margin: 120px 0px 72px 0px;
 }
+/* ludzie* */
+
 .team-section {
 background-color: var(--cloud);
 margin:0px auto ;
@@ -190,7 +197,8 @@ margin:0px auto ;
     display: flex;
     gap: 24px;
 }
-.team-section h2{
+/* h2-tytuł * */
+.team-section h2{ 
 font-size: 36px;
 font-weight: 700;
 line-height: 1.11;
@@ -204,6 +212,7 @@ margin-bottom: 72px;
  text-align: center;
  background-color: #FFFFFF;   
 }
+/* imiona* */
 .team-section h3 {
 font-size: 20px;
 font-weight: 500;
@@ -211,12 +220,15 @@ line-height: 1.2;
 letter-spacing: 0.4px;
 margin: 8px;
 }
+
+/* stanowisko* */
 .team-section p {
 color: var(--slate, #434455);
 font-size: 16px;
 line-height: 1.5px;
 letter-spacing: 0.32px;
 }
+/* stopka * */
 .footer-section {
 background-color: var(--navy-blue);
 padding: 100px 0px ;
@@ -235,6 +247,7 @@ padding: 100px 0px ;
 .footer-logo {
   color: var(--cloud);
 }
+/* opis pod logiem * */
 .footer-section p {
  width:264px;
  letter-spacing: 0.02em;
@@ -243,6 +256,9 @@ line-height: 1.5;
 font-size: 16px;
 letter-spacing: 0.02em;
  }
+
+ /* PORTFOLIO * */
+
 .list-doing-img {
 list-style: none;
 }
@@ -250,6 +266,7 @@ list-style: none;
 list-style: none;    
 }
 
+/* przyciski * */
 .projects-card-item button {
 color:var(--iris);
 background-color: var(--cornflower);
@@ -257,23 +274,23 @@ font-size: 16px;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.64px;
-padding:12px 24px ;
-margin: 96px 0px 72px;
+padding:12px 24px;
 }
 .projects-card-item button:hover {
 color: white;
 background-color: var(--ocean);
 cursor: pointer;
-
-.projects-card-item{
+}
+.projects-card {
 display: flex;
 justify-content: center;
 gap: 24px;
-   } 
 }
 .photo-section h1 {
 color: white;
 }
+
+/* obrazki * */
 
 .photo-section ul:nth-child(3) {
  display: flex;
