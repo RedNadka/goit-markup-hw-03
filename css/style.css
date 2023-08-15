@@ -144,6 +144,7 @@ button:hover{
 cursor:pointer;
 background-color: var(--ocean);
 }
+
 button{
 background-color: var(--iris);   
 color: var(--white, #FFF);
@@ -157,12 +158,20 @@ padding: 16px 32px;
 }
 
 /* h3-4punkty  * */
+
+
+.article ul {
+  display: flex;
+  gap: 24px;  
+  padding-top: 120px;
+}
+
 .article-list-item h3 {
 font-size: 20px;
 font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.4px;  
-margin-top: 120px;
+
 }
 
 .article-list-item p {
@@ -170,9 +179,14 @@ color: var(--slate, #434455);
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.32px;
-margin-top: 8px;
+
 }
 /* co robimy - 3 zdjęcia  * */
+
+.doing-section {
+padding-top: 0;    
+}
+
 .doing-section ul{
  display: flex;
  justify-content: space-between;
@@ -185,19 +199,25 @@ line-height: 1.11;
 letter-spacing: 0.72px;
 text-transform: capitalize;
 text-align: center;
-margin: 120px 0px 72px 0px;
+margin: 120px 0 72px 0;
 }
 /* ludzie* */
 
 .team-section {
 background-color: var(--cloud);
-margin:0px auto ;
+margin:0 auto ;
+text-align: center;
 }
 .team-section ul{
     display: flex;
     gap: 24px;
 }
 /* h2-tytuł * */
+
+.team-section li{
+background-color: white;
+border-radius: 0 0 4px 4px;
+}
 .team-section h2{ 
 font-size: 36px;
 font-weight: 700;
@@ -218,7 +238,7 @@ font-size: 20px;
 font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.4px;
-margin: 8px;
+margin-bottom: 8px;
 }
 
 /* stanowisko* */
@@ -231,7 +251,7 @@ letter-spacing: 0.32px;
 /* stopka * */
 .footer-section {
 background-color: var(--navy-blue);
-padding: 100px 0px ;
+padding: 100px 0 ;
 }
 .footer-studio{
  text-transform: uppercase;
