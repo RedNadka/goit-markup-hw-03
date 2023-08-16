@@ -103,7 +103,7 @@ img {
 ul
 {
  list-style: none; 
- margin-left: 0;
+ margin: 0;
  padding-left: 0;  
 }
 .visually-hidden {
@@ -155,6 +155,8 @@ line-height: 1.5;
 letter-spacing: 0.64px;
 margin-top: 48px;
 padding: 16px 32px;
+border: none;
+border-radius: 4px;
 }
 
 /* h3-4punkty  * */
@@ -184,7 +186,7 @@ letter-spacing: 0.32px;
 /* co robimy - 3 zdjęcia  * */
 
 .doing-section {
-padding-top: 0;    
+padding-bottom: 120px;    
 }
 
 .doing-section ul{
@@ -205,7 +207,7 @@ margin: 120px 0 72px 0;
 
 .team-section {
 background-color: var(--cloud);
-margin:0 auto ;
+padding: 120px ;
 text-align: center;
 }
 .team-section ul{
@@ -234,6 +236,7 @@ margin-bottom: 72px;
 }
 /* imiona* */
 .team-section h3 {
+color: var(--navy-blue);
 font-size: 20px;
 font-weight: 500;
 line-height: 1.2;
@@ -245,7 +248,7 @@ margin-bottom: 8px;
 .team-section p {
 color: var(--slate, #434455);
 font-size: 16px;
-line-height: 1.5px;
+line-height: 1.5;
 letter-spacing: 0.32px;
 }
 /* stopka * */
@@ -295,6 +298,8 @@ font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.64px;
 padding:12px 24px;
+border: 1px;
+border-radius: 4px;
 }
 .projects-card-item button:hover {
 color: white;
@@ -305,6 +310,8 @@ cursor: pointer;
 display: flex;
 justify-content: center;
 gap: 24px;
+margin-bottom: 72px;
+
 }
 .photo-section h1 {
 color: white;
@@ -317,7 +324,10 @@ color: white;
  flex-wrap: wrap;
 
  column-gap: 24px;
- row-gap: 48px ;   
+ row-gap: 48px ; 
+padding-top: 96px;
+padding-bottom: 120px;
+
  }   
 
 .photo-section h3 {
@@ -326,9 +336,11 @@ color: white;
     line-height: 1.2;
     letter-spacing: 0.4px;
     margin-bottom: 8px;
+    
 }
 .photo-section p {
     color: var(--slate);
+    
 }
 .photo-section-discription{
     border-right: 1px var(--cornflower) solid;
@@ -336,5 +348,6 @@ color: white;
     border-left: 1px var(--cornflower) solid;
     padding: 32px 16px;
     background-color: white;
+   
 }
 
